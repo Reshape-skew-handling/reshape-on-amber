@@ -1,5 +1,15 @@
 # Reshape
-This is the code for the implementation of Reshape on the Amber engine. Amber is the backend engine for a service called Texera. More details about Texera and how to build it can be found at [Texera's github](https://github.com/Texera/texera).
+This is the code for the implementation of Reshape on the Amber engine. Amber is the backend engine for a big-data analytics service called Texera being developed at UC Irvine. More details about Texera and how to build it can be found at [Texera's github](https://github.com/Texera/texera).
+
+## Install packages
+1. Install `Java JDK 8 or 11 (Java Development Kit)` (recommend: `adoptopenjdk`) for running the backend engine of Texera and set JAVA_HOME in your path.
+2. Install `sbt` for building the project, check https://www.scala-sbt.org/1.x/docs/Setup.html. We recommend using `sdkman` to install sbt if you are using Java 8. Sbt installed using brew has problem with Java 8, as documented [here](https://stackoverflow.com/questions/61271015/sbt-fails-with-string-class-is-broken).
+3. Install `Git`.
+* On Windows, install the software from https://gitforwindows.org/
+* On Mac and Linux, see https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+4. Install `Node.js` and `npm` (Install an LTS version instead of the latest. Currently it’s version 14.x)     
+[https://nodejs.org/en/](https://nodejs.org/en/). [Use NVM to install NodeJS](https://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/) because it avoids permission issues when using node.
+5. Install `yarn` package manager: https://classic.yarnpkg.com/en/docs/install/
 
 ## Building the project
 ```console
