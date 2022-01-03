@@ -48,3 +48,4 @@ Note: (if `./scripts/worker.sh` gives a "permission denied error", just do `chmo
 ## To use Reshape on Amber:
 1. Go to the [Constants](https://github.com/Reshape-skew-handling/reshape-on-amber/blob/main/core/amber/src/main/scala/edu/uci/ics/amber/engine/common/Constants.scala) file. It contains the configuration information  
 2. Set `onlyDetectSkew = false` to enable Reshape on Amber.
+3. The skew detection threshold τ can be adjused using the variable `threshold`.
