@@ -20,6 +20,8 @@ object Constants {
   val startDetection: FiniteDuration = 2.seconds // 100.milliseconds
   val detectionPeriod: FiniteDuration = 2.seconds
   val printResultsInConsole: Boolean = true
+  
+  val onlyDetectSkew: Boolean = false
 
   // sort-skew research related
   val eachTransferredListSize: Int = 10000
@@ -27,7 +29,6 @@ object Constants {
   val upperLimit: Float = 600000f // 30gb
 
   val sortExperiment: Boolean = false
-  val onlyDetectSkew: Boolean = false
   var threshold: Int = 100
   var freeSkewedThreshold: Int = 300 // 300
   var firstphaseThresholdWhenRollingBack: Int = 100
