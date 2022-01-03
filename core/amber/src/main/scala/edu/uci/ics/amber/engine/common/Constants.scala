@@ -22,6 +22,7 @@ object Constants {
   val printResultsInConsole: Boolean = true
   
   val onlyDetectSkew: Boolean = false
+  var threshold: Int = 100
 
   // sort-skew research related
   val eachTransferredListSize: Int = 10000
@@ -29,7 +30,6 @@ object Constants {
   val upperLimit: Float = 600000f // 30gb
 
   val sortExperiment: Boolean = false
-  var threshold: Int = 100
   var freeSkewedThreshold: Int = 300 // 300
   var firstphaseThresholdWhenRollingBack: Int = 100
   val firstPhaseNum = 9 // 9
